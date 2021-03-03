@@ -1,4 +1,4 @@
-#Some useful commands with MacPorts#
+# Some useful commands with MacPorts #
 
 port search <keyword>
 port list installed
@@ -11,7 +11,7 @@ sudo port uninstall <package>
 sudo port selfupdate
 sudo port upgrade outdated
 
-#Some installations with macports#
+# Some installations with macports #
 
 sudo port install emacs-mac-app
 
