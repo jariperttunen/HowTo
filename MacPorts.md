@@ -30,7 +30,7 @@
 + sudo port install doxygen
 + sudo port install graphviz
 
-+ sudo port install texlive +full
++ sudo port install texlive +full (full variant, i.e. full installation)
 
 + sudo port install ImageMagick 
 
