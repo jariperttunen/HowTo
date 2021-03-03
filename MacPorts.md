@@ -8,7 +8,7 @@
 + sudo port clean \<package\>
 + sudo port uninstall \<package\>
 
-+ sudo port selfupdate
++ sudo port selfupdate (every two weeks or so)
 + sudo port upgrade outdated
 
 ## Some installations with macports 
