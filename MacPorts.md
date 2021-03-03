@@ -21,7 +21,7 @@
 
 + sudo port install python\<version\> (e.g. python39)
 + sudo port install R-app
-+ 
+
 + sudo port install gcc\<version\> (e.g. gcc9)
 + sudo port select --set gcc mp-gcc9 (gfortran)
 
