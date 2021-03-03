@@ -34,5 +34,4 @@
 
 + sudo port install ImageMagick 
 
-+ sudo port install paraview (may take awhile)
 
