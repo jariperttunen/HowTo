@@ -25,7 +25,7 @@
 + sudo port install gcc\<version\> (e.g. gcc9)
 + sudo port select --set gcc mp-gcc9 (gfortran)
 
-+ sudo port install qt4-creator-mac
++ sudo port install qt4-creator-mac (qt4 developer)
 
 + sudo port install doxygen
 + sudo port install graphviz
