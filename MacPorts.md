@@ -14,18 +14,18 @@
 ## Some installations with macports 
 
 + sudo port install emacs-mac-app
++ sudo port install cvs
 
 + sudo port install cgal4 (old version)
 + sudo port install cgal5 (new version)
 
 + sudo port install python\<version\> (e.g. python39)
-
++ sudo port install R-app
++ 
 + sudo port install gcc\<version\> (e.g. gcc9)
 + sudo port select --set gcc mp-gcc9 (gfortran)
 
 + sudo port install qt4-creator-mac
-
-+ sudo port install R-app
 
 + sudo port install doxygen
 + sudo port install graphviz
