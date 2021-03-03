@@ -1,6 +1,6 @@
 ## Some useful commands with MacPorts
 
-+ port search <keyword>
++ port search \<keyword\>
 + port list installed
 + port info <package>
 + port variants <package>
