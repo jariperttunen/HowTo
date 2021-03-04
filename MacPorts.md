@@ -35,7 +35,7 @@ I have manage to install these ports below. Bigger updates in MacOS may break po
 
 + sudo port install ImageMagick 
 
-The following ports are currently broken (macOS Big Sur)
+I found the following ports are currently broken (macOS Big Sur)
 
 + paraview
 
