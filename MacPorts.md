@@ -24,7 +24,7 @@ I have manage to install these ports below. Bigger updates in MacOS may break po
 + sudo port install R-app
 
 + sudo port install gcc\<version\> (e.g. gcc9)
-  + sudo port select --set gcc mp-gcc9 (gfortran)
+  + sudo port select --set gcc mp-gcc\<version\> (e.g., gcc9, gfortran)
 
 + sudo port install qt4-creator-mac (qt4 developer)
 
