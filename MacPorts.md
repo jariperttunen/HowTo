@@ -12,6 +12,7 @@
 + sudo port upgrade outdated
 
 ## Some installations with macports 
+I have manage to install these ports below. Bigger updates in MacOS may break ports (e.g. qt4).
 
 + sudo port install emacs-mac-app
 + sudo port install cvs
