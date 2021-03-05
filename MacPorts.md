@@ -13,7 +13,7 @@
 
 ## Some installations with macports 
 I have manage to install these ports below including their dependencies. 
-Bigger updates in macOS may break ports (e.g. qt4).
+Major macOS updates may break ports (e.g. qt4).
 
 + sudo port install emacs-mac-app
 + sudo port install cvs
