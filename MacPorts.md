@@ -5,7 +5,7 @@
 + port info \<package\>
 + port variants \<package\>
 + sudo port install \<package\>
-+ sudo port clean \<package\>
++ sudo port clean \<package\> (remove compilation files)
 + sudo port uninstall \<package\>
 
 + sudo port selfupdate (every two weeks or so)
