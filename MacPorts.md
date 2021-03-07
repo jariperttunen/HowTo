@@ -10,6 +10,7 @@
   + sudo port uninstall inactive (reclaim space by removing inactive ports) 
 + sudo port selfupdate (every two weeks or so)
 + sudo port upgrade outdated
++ port info --maintainers <package> (bug report: add maintainers if any)
 
 ## Xcode related commands
 + xcodebuild -showsdks (show installed developer kits)
