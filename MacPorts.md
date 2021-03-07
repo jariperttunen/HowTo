@@ -1,5 +1,4 @@
 ## Some useful commands with MacPorts
-
 + port search \<keyword\>
 + port list installed
 + port info \<package\>
@@ -10,6 +9,11 @@
 
 + sudo port selfupdate (every two weeks or so)
 + sudo port upgrade outdated
+
+## Xcode related commands
++ xcodebuild -showsdks (show installed developer kits)
++ xcode-select --install (install command lin tools)
++ ls -Flah /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs (sdk location)
 
 ## Some installations with macports 
 I have manage to install these ports below including their dependencies. 
