@@ -30,7 +30,7 @@ Major macOS updates may break ports (e.g. qt4).
 + sudo port install R-app
 
 + sudo port install gcc\<version\> (e.g. gcc9)
-  + sudo port select --set gcc mp-gcc\<version\> (e.g. mp-gcc9, gfortran available)
+  + sudo port select --set gcc mp-gcc\<version\> (e.g. mp-gcc9, gfortran ready to use)
 
 + sudo port install qt4-creator-mac (qt4 developer)
 
