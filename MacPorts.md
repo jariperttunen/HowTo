@@ -44,6 +44,6 @@ Major macOS updates may break ports (e.g. qt4).
 
 I found the following ports are currently broken (macOS Big Sur)
 
-+ paraview (download from paraview.org)
++ paraview (download from https://paraview.org)
 
 
