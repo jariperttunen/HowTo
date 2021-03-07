@@ -12,7 +12,7 @@
 
 ## Xcode related commands
 + xcodebuild -showsdks (show installed developer kits)
-+ xcode-select --install (install command lin tools)
++ xcode-select --install (install command line tools)
 + ls -Flah /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs (sdk location)
 
 ## Some installations with macports 
