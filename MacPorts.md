@@ -5,7 +5,7 @@
 + port list installed
   + port installed inactive  
 + port info \<port\>
-  + port info --maintainers (bug report: add maintainers if any)    
+  + port info --maintainers (for bug report: add maintainers if any)    
 + port variants \<port\>
 + sudo port install \<package\>
 + sudo port clean \<port\> (remove compilation files)
