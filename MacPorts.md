@@ -28,7 +28,8 @@ Major macOS updates may break ports (e.g. qt4).
 + sudo port install cgal5 (new version)
 
 + sudo port install python\<version\> (e.g. python39)
-  + (install python packages with pip) 
+  + sudo port select --set python\<version\> (active version)    
+  + install python packages with pip 
 + sudo port install R-app
 
 + sudo port install gcc\<version\> (e.g. gcc9)
