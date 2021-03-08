@@ -1,4 +1,5 @@
 ## Some useful commands with MacPorts
++ port help \[\<command\>\]
 + port search \<keyword\>
   + port search --exact \<keyword\>
 + port list installed
