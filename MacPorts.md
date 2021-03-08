@@ -43,6 +43,7 @@ Major macOS updates may break ports (e.g. qt4).
 
 + sudo port install texlive +full (LaTeX, full variant, i.e. full installation, may take awhile)
 + sudo port install TeXShop4 (LaTeX gui)
++ sudo port install LyX (LateX WYSIWYM editor, "what you see is what you mean")
 
 + sudo port install ImageMagick 
 
