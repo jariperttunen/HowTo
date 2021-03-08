@@ -25,27 +25,20 @@ Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 
 + sudo port install emacs-mac-app
 + sudo port install cvs
-
-+ sudo port install cgal4 (old version)
-+ sudo port install cgal5 (new version)
-
 + sudo port install python\<version\> (e.g. python39)
   + sudo port select --set python\<version\> (active version)    
   + install python packages with pip 
 + sudo port install R-app
-
 + sudo port install gcc\<version\> (e.g. gcc9)
   + sudo port select --set gcc mp-gcc\<version\> (e.g. mp-gcc9, active version, gfortran ready to use)
-
 + sudo port install qt4-creator-mac (qt4 developer)
-
++ sudo port install cgal4 (old version)
++ sudo port install cgal5 (new version)
 + sudo port install doxygen
 + sudo port install graphviz
-
 + sudo port install texlive +full (LaTeX, full variant, i.e. full installation, may take awhile)
 + sudo port install TeXShop4 (LaTeX gui)
 + sudo port install LyX (LateX WYSIWYM editor, "what you see is what you mean")
-
 + sudo port install ImageMagick 
 
 The following ports seem to be currently broken (macOS Big Sur)
