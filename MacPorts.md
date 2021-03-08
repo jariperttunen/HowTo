@@ -46,8 +46,9 @@ Major macOS updates may break ports (e.g. qt4).
 
 + sudo port install ImageMagick 
 
-I found the following ports are currently broken (macOS Big Sur)
+The following ports seem to be currently broken (macOS Big Sur)
 
 + paraview (download from https://paraview.org)
++ R-app (Apple M1 processor)
 
 
