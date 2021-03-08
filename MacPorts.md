@@ -7,7 +7,7 @@
 + port info \<port\>
   + port info --maintainers (for bug report: add maintainers if any)    
 + port variants \<port\>
-+ sudo port install \<package\>
++ sudo port install \<port\>
 + sudo port clean \<port\> (remove compilation files)
 + sudo port uninstall \<port\>
   + sudo port uninstall inactive (reclaim space by removing inactive ports) 
