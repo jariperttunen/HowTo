@@ -4,12 +4,12 @@
   + port search --exact \<keyword\>
 + port list installed
   + port installed inactive  
-+ port info \<package\>
++ port info \<port\>
   + port info --maintainers (bug report: add maintainers if any)    
-+ port variants \<package\>
++ port variants \<port\>
 + sudo port install \<package\>
-+ sudo port clean \<package\> (remove compilation files)
-+ sudo port uninstall \<package\>
++ sudo port clean \<port\> (remove compilation files)
++ sudo port uninstall \<port\>
   + sudo port uninstall inactive (reclaim space by removing inactive ports) 
 + sudo port selfupdate (every two weeks or so)
 + sudo port upgrade outdated
