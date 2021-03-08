@@ -8,7 +8,7 @@
   + port info --maintainers (for bug report: add maintainers if any)    
 + port variants \<port\>
 + sudo port install \<port\>
-+ sudo port clean \<port\> (remove compilation files)
++ sudo port clean \<port\> (remove compilation work)
 + sudo port uninstall \<port\>
   + sudo port uninstall inactive (reclaim space by removing inactive ports) 
 + sudo port selfupdate (every two weeks or so)
