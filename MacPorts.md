@@ -40,6 +40,7 @@ Major macOS updates may break ports (e.g. qt4).
 + sudo port install graphviz
 
 + sudo port install texlive +full (LaTeX, full variant, i.e. full installation, may take awhile)
++ sudo port install TeXShop4 (LaTeX gui)
 
 + sudo port install ImageMagick 
 
