@@ -25,6 +25,7 @@ I have managed to install these ports below including their dependencies.
 Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 
 + sudo port install emacs-mac-app
+  + sudo port install ess (Emacs mode for statistical programming, R-mode, remote server)   
 + sudo port install cvs
 + sudo port install python\<version\> (e.g. python39)
   + sudo port select --set python\<version\> (active version)    
