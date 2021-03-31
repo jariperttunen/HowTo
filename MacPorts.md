@@ -21,10 +21,10 @@
 + ls -Flah /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs (sdk location)
 
 ## Some installations with MacPorts 
-Installation macOS Big Sur, Intel. Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
+Installation on macOS Big Sur, Intel. Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 
 + sudo port install emacs-mac-app
-  + sudo port install ess (Emacs mode for statistical programming, R-mode, remote server)   
+  + sudo port install ess (Emacs mode for statistical programming, R-mode, remote server use)   
 + sudo port install cvs
 + sudo port install python\<version\> (e.g. python39)
   + sudo port select --set python\<version\> (active version)    
@@ -42,10 +42,10 @@ Installation macOS Big Sur, Intel. Major macOS updates may break ports (e.g. qt4
 + sudo port install LyX (LateX WYSIWYM editor, "what you see is what you mean")
 + sudo port install ImageMagick 
 
-MacPorts ports for M1 processor seem to be under construction. 
-The following ports seem to be currently broken (macOS Big Sur)
-
+The following ports, at least, seem to be currently broken (macOS Big Sur)
 + paraview (download from https://paraview.org)
+
+MacPorts ports for M1 processor seem to be under construction, for example 
 + R-app (Apple M1 processor)
 
 
