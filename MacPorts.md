@@ -20,7 +20,7 @@
 + xcode-select --install (install command line tools)
 + ls -Flah /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs (sdk location)
 
-## Some installations with macports 
+## Some installations with MacPorts 
 Installation macOS Big Sur, Intel. Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 
 + sudo port install emacs-mac-app
@@ -42,6 +42,7 @@ Installation macOS Big Sur, Intel. Major macOS updates may break ports (e.g. qt4
 + sudo port install LyX (LateX WYSIWYM editor, "what you see is what you mean")
 + sudo port install ImageMagick 
 
+MacPorts ports for M1 processor seem to be under construction. 
 The following ports seem to be currently broken (macOS Big Sur)
 
 + paraview (download from https://paraview.org)
