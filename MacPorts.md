@@ -9,7 +9,7 @@
 + port variants \<port\>
 + sudo port install \<port\>
 + sudo port clean \<port\> (remove compilation work)
-+ sudo port uninstall \<port\>
++ sudo port uninstall \[--follow-dependencies\] \<port\>
   + sudo port uninstall inactive (reclaim space by removing inactive ports) 
   + sudo port uninstall installed
 + sudo port selfupdate (every two weeks or so)
