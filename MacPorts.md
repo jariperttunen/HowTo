@@ -36,7 +36,7 @@ Installation on macOS Big Sur, Intel. Major macOS updates may break ports (e.g. 
 + sudo port install cgal4 (old version)
 + sudo port install cgal5 (new version)
 + sudo port install doxygen
-+ sudo port install graphviz
+  + sudo port install graphviz
 + sudo port install texlive +full (LaTeX, full variant, i.e. full installation, may take awhile)
 + sudo port install TeXShop4 (LaTeX gui and editor)
 + sudo port install LyX (LateX WYSIWYM editor, "what you see is what you mean")
