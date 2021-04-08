@@ -49,7 +49,7 @@ The following ports, at least, seem to be currently broken (macOS Big Sur)
 
 ## Apple M1 processor
 MacPorts ports for the new M1 processor seem to be under construction. You may try Rosetta 2.
-The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g) and then install Macports. Macports should install Intel versions of ports that are run through Roseatta 2.
+The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g) and then install Macports. Macports should install Intel versions of ports that are run through Rosetta 2.
 
 # MacPorts behind firewall (proxies)
 The easy way is to do MacPorts installations outside firewall. Otherwise one can set 
