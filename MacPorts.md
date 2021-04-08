@@ -11,7 +11,7 @@
   + port installed inactive  
 + port info \<port\>
   + port info --maintainers (for bug report: add maintainers if any)    
-+ port variants \<port\>
++ port variants \<port\> (ports may have different installation options)
 + sudo port selfupdate (every two weeks or so)
   + sudo port upgrade outdated
 
