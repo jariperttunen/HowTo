@@ -51,13 +51,15 @@ The following ports, at least, seem to be currently broken (macOS Big Sur)
 MacPorts ports for M1 processor seem to be under construction.
 
 # MacPorts behind firewall (proxies)
-The easy way is to do MacPorts installations outside firewall. Otherwise one can do the following (in Terminal)
+The easy way is to do MacPorts installations outside firewall. Otherwise one can set 
+the three required environmental variables (in Terminal)
 
-+ export RSYNC_PROXY=10.88.2.10:8080
-+ export HTTPS_PROXY=https://10.88.2.10:8080
-+ export HTTP_PROXY=http://10.88.2.10:8080
++ export RSYNC_PROXY=\<proxy_server\>:\<port\>
++ export HTTPS_PROXY=https://\<proxy_server\>:\<port\>
++ export HTTP_PROXY=http://\<proxy_server\>:\<port\>
 + sudo -E port selfupdate
 + sudo -E port upgrade outdated
 
-The ´-E´ option passes the three environmental variables to port command. 
-If feasible the three export commands can be in the '.profile' file (bash/zsh shell). 
+The `-E` option for `sudo` passes the three environmental variables to port command. 
+If feasible the three export commands can be in the `.profile` file (bash/zsh shell). 
+A more advanced way to bypass firewall can be done with [Git](https://trac.macports.org/wiki/howto/SyncingWithGit).
