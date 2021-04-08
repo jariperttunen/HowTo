@@ -47,8 +47,8 @@ Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 The following ports, at least, seem to be currently broken (macOS Big Sur)
 + paraview (download from https://paraview.org)
 
-## M1 processor
-MacPorts ports for M1 processor seem to be under construction.
+## Apple M1 processor
+MacPorts ports for the new M1 processor seem to be under construction.
 
 # MacPorts behind firewall (proxies)
 The easy way is to do MacPorts installations outside firewall. Otherwise one can set 
