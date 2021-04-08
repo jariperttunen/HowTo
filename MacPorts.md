@@ -2,18 +2,18 @@
 + port help \[\<command\>\]
 + port search \<keyword\>
   + port search --exact \<keyword\>
-+ port list installed
-  + port installed inactive  
-+ port info \<port\>
-  + port info --maintainers (for bug report: add maintainers if any)    
-+ port variants \<port\>
 + sudo port install \<port\>
 + sudo port clean \<port\> (remove compilation work)
 + sudo port uninstall \[--follow-dependencies\] \<port\>
   + sudo port uninstall inactive (reclaim space by removing inactive ports) 
   + sudo port uninstall installed
++ port list installed
+  + port installed inactive  
++ port info \<port\>
+  + port info --maintainers (for bug report: add maintainers if any)    
++ port variants \<port\>
 + sudo port selfupdate (every two weeks or so)
-+ sudo port upgrade outdated
+  + sudo port upgrade outdated
 
 ## Xcode related commands
 + xcodebuild -showsdks (show installed developer kits)
