@@ -21,8 +21,7 @@
 + ls -Flah /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs (sdk location)
 
 ## Some installations with MacPorts 
-### Installation on macOS Big Sur, Intel. 
-
+### Installation on macOS Big Sur, Intel processor. 
 Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 
 + sudo port install emacs-mac-app
@@ -48,6 +47,7 @@ Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 The following ports, at least, seem to be currently broken (macOS Big Sur)
 + paraview (download from https://paraview.org)
 
+### M1 processor
 MacPorts ports for M1 processor seem to be under construction.
 
 
