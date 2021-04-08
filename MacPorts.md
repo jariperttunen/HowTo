@@ -21,7 +21,7 @@
 + ls -Flah /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs (sdk location)
 
 ## Some installations with MacPorts 
-###Installation on macOS Big Sur, Intel. 
+### Installation on macOS Big Sur, Intel. 
 
 Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 
