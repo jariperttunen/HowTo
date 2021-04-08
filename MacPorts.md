@@ -1,4 +1,4 @@
-## Some useful commands with MacPorts
+# Some useful commands with MacPorts
 + port help \[\<command\>\]
 + port search \<keyword\>
   + port search --exact \<keyword\>
@@ -15,13 +15,13 @@
 + sudo port selfupdate (every two weeks or so)
   + sudo port upgrade outdated
 
-## Xcode related commands
+# Xcode related commands
 + xcodebuild -showsdks (show installed developer kits)
 + xcode-select --install (install command line tools)
 + ls -Flah /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs (sdk location)
 
-## Some installations with MacPorts 
-### Installation on macOS Big Sur, Intel processor. 
+# Some installations with MacPorts 
+## Installation on macOS Big Sur, Intel processor. 
 Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 
 + sudo port install emacs-mac-app
@@ -47,7 +47,7 @@ Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 The following ports, at least, seem to be currently broken (macOS Big Sur)
 + paraview (download from https://paraview.org)
 
-### M1 processor
+## M1 processor
 MacPorts ports for M1 processor seem to be under construction.
 
 # MacPorts behind firewall (proxies)
