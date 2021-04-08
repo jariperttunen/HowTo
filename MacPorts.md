@@ -25,7 +25,6 @@ Installation on macOS Big Sur, Intel. Major macOS updates may break ports (e.g. 
 
 + sudo port install emacs-mac-app
   + sudo port install ess (Emacs mode for statistical programming, R-mode, remote server use)   
-+ sudo port install cvs
 + sudo port install python\<version\> (e.g. python39)
   + sudo port select --set python\<version\> (active version)    
   + install python packages with pip 
@@ -41,11 +40,12 @@ Installation on macOS Big Sur, Intel. Major macOS updates may break ports (e.g. 
 + sudo port install TeXShop4 (LaTeX gui and editor)
 + sudo port install LyX (LateX WYSIWYM editor, "what you see is what you mean")
 + sudo port install ImageMagick 
++ sudo port install cvs
++ sudo port install enscript
 
 The following ports, at least, seem to be currently broken (macOS Big Sur)
 + paraview (download from https://paraview.org)
 
-MacPorts ports for M1 processor seem to be under construction, for example 
-+ R-app (Apple M1 processor)
+MacPorts ports for M1 processor seem to be under construction.
 
 
