@@ -63,10 +63,10 @@ the three required environmental variables (in Terminal)
 + export RSYNC_PROXY=\<proxy_server\>:\<port\>
 + export HTTPS_PROXY=https://\<proxy_server\>:\<port\>
 + export HTTP_PROXY=http://\<proxy_server\>:\<port\>
-+ sudo -E port \<command>, e.g.:
++ sudo -E port \<command\>:
   + sudo -E port selfupdate
   + sudo -E port upgrade outdated
 
 The `-E` option for `sudo` passes the three environmental variables to port command. 
-If feasible the three export commands can be in the `.profile` file (bash/zsh shell). 
+If feasible the three export commands can be in the `.profile` or `.zprofile` files (bash/zsh shell respectively). 
 A more advanced way to bypass firewall can be done with [Git](https://trac.macports.org/wiki/howto/SyncingWithGit).
