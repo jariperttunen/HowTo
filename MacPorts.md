@@ -49,7 +49,7 @@ The following ports, at least, seem to be currently broken (macOS Big Sur)
 + paraview (download from https://paraview.org)
 
 ## X11 Window system
-MacPorts has older version of XQuartz in **xorg** package. It has problems at least with OpenGL. 
+MacPorts has older version of XQuartz in **xorg** port. It has problems at least with OpenGL. 
 Download from https://www.xquartz.org instead.
 
 ## Apple M1 processor
