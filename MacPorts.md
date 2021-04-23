@@ -33,8 +33,8 @@ Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 + sudo port install gcc\<version\> (e.g. gcc9)
   + sudo port select --set gcc mp-gcc\<version\> (e.g. mp-gcc9, active version, gfortran ready to use)
 + sudo port install qt4-creator-mac (qt4 developer)
-+ sudo port install cgal4 (old version)
-+ sudo port install cgal5 (new version)
++ sudo port install cgal4 (old version, conflicts cgal5)
++ sudo port install cgal5 (new version, conflicts cgal4)
 + sudo port install doxygen
   + sudo port install graphviz
 + sudo port install texlive +full (LaTeX, full variant, i.e. full installation, may take awhile)
