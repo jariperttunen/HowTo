@@ -47,6 +47,10 @@ Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 The following ports, at least, seem to be currently broken (macOS Big Sur)
 + paraview (download from https://paraview.org)
 
+## X11 Window system
+MacPorts has older version XQuartz in **xorg** package. It has problems at least with OpenGL. 
+Download from https://www.xquartz.org instead.
+
 ## Apple M1 processor
 MacPorts ports for the new M1 processor seem to be under construction. You may try Rosetta 2.
 The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g) and then install Macports. Macports should install Intel versions of ports that are run through Rosetta 2.
