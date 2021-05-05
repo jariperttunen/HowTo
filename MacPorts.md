@@ -51,7 +51,8 @@ The following ports, at least, seem to be currently broken (macOS Big Sur)
 
 ## X11 Window system
 MacPorts has older version of XQuartz in **xorg** port. It has problems at least with OpenGL. 
-Download from https://www.xquartz.org instead.
+Download from https://www.xquartz.org instead. Try to manage to do without X11, for example
+Emacs + ess instead of RStudio GUI from server. 
 
 ## Apple M1 processor
 MacPorts ports for the new M1 processor seem to be under construction. You may try Rosetta 2.
