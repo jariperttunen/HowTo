@@ -43,7 +43,7 @@ Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 + sudo port install ImageMagick 
 + sudo port install cvs
 + sudo port install enscript (Advanced source code pdf formatting for printing)
-+ sudo port instaa gh (GitHub command line interface)
++ sudo port install gh (GitHub command line interface)
 
 #### Broken ports 
 The following ports, at least, seem to be currently broken (macOS Big Sur)
