@@ -42,7 +42,6 @@ Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 + sudo port install LyX (LateX WYSIWYM editor, "what you see is what you mean")
 + sudo port install ImageMagick (Create, convert, edit raster images, since 1987 still going strong,
 see [Official website](https://imagemagick.org), command line programs, requires X11 for GUI).  
-+ sudo port install cvs
 + sudo port install enscript (Advanced source code pdf formatting for printing)
 + sudo port install gh (GitHub command line interface)
 
@@ -52,8 +51,15 @@ The following ports, at least, seem to be currently broken (macOS Big Sur)
 
 ## X11 Window system
 MacPorts has older version of XQuartz in **xorg** port. It has problems at least with OpenGL. 
-Download from https://www.xquartz.org instead. Try to manage to do without X11, for example
-Emacs + ess instead of RStudio GUI from server. 
+Download from https://www.xquartz.org instead. It is not picture perfect either. 
+Try to manage to do without X11, for example Emacs + ess instead of RStudio GUI from server. 
+
+## Convert version control system to Git
+To convert from CVS or Mercurial to Git the following ports are needed. See also the VC_Conversion repository.
++ sudo port install cvs
++ sudo port install mercurial
++ sudo port install cvs2svn
++ sudo port install git-remote-hg
 
 ## Apple M1 processor
 MacPorts ports for the new M1 processor seem to be under construction. You may try Rosetta 2.
