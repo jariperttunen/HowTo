@@ -48,11 +48,11 @@ see [Official website](https://imagemagick.org), command line programs, requires
 
 #### Broken ports 
 The following ports, at least, seem to be currently broken (macOS Big Sur)
-+ paraview (download from https://paraview.org)
++ paraview (download from [Paraview](https://paraview.org))
 
 ## X11 Window system
 MacPorts has older version of XQuartz in **xorg** port. It has problems at least with OpenGL. 
-Download from https://www.xquartz.org instead. It is not picture perfect either. 
+Download from [XQuartz](https://www.xquartz.org) instead. It is not picture perfect either. 
 Try to manage to do without X11, for example Emacs + ess instead of RStudio GUI from server. 
 
 ## Convert version control system to Git
@@ -64,7 +64,7 @@ To convert from CVS or Mercurial to Git the following ports are needed. See also
 
 ## Apple M1 processor
 MacPorts ports for the new M1 processor seem to be under construction. You may try Rosetta 2.
-The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g) and then install Macports. Macports should install Intel versions of ports that are run through Rosetta 2.
+The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g) and then install MacPorts. MacPorts should install Intel versions of ports that are run through Rosetta 2.
 
 ## Uninstall MacPorts
 If you have decided to do this the instructions are in [MacPorts Guide](https://guide.macports.org/#installing.macports.uninstalling).
