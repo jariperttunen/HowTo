@@ -1,4 +1,5 @@
 # Some useful commands with MacPorts
+The MacPorts manual is in [MacPorts Guide](https://guide.macports.org)
 + port help \[\<command\>\]
 + port search \<keyword\>
   + port search --exact \<keyword\>
