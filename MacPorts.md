@@ -6,7 +6,7 @@ The MacPorts manual is in [MacPorts Guide](https://guide.macports.org)
 + sudo port install \<port\>
 + port list installed
   + port installed inactive 
-+ sudo port clean \<port\> (remove compilation work)
++ sudo port clean \<port\> (remove compilation work, recommended)
 + sudo port uninstall \[--follow-dependencies\] \<port\>
   + sudo port uninstall inactive (reclaim space by removing inactive ports) 
   + sudo port uninstall installed
@@ -65,6 +65,9 @@ To convert from CVS or Mercurial to Git the following ports are needed. See also
 ## Apple M1 processor
 MacPorts ports for the new M1 processor seem to be under construction. You may try Rosetta 2.
 The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g) and then install Macports. Macports should install Intel versions of ports that are run through Rosetta 2.
+
+## Uninstall MacPorts
+Consider twice if you need to to this. However, the instructions are in [MacPorts Guide](https://guide.macports.org/#installing.macports.uninstalling)
 
 # MacPorts behind firewall (proxies)
 The easy way is to do MacPorts installations outside firewall. Otherwise one can set 
