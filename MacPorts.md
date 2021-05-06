@@ -67,7 +67,7 @@ MacPorts ports for the new M1 processor seem to be under construction. You may t
 The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g) and then install Macports. Macports should install Intel versions of ports that are run through Rosetta 2.
 
 ## Uninstall MacPorts
-Consider twice if you need to to this. However, the instructions are in [MacPorts Guide](https://guide.macports.org/#installing.macports.uninstalling).
+If you have decided to do this the instructions are in [MacPorts Guide](https://guide.macports.org/#installing.macports.uninstalling).
 
 # MacPorts behind firewall (proxies)
 The easy way is to do MacPorts installations outside firewall. Otherwise one can set 
