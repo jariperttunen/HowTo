@@ -57,7 +57,7 @@ The following ports, at least, seem to be currently broken (macOS Big Sur)
 ## X11 Window system
 MacPorts has older version of XQuartz in **xorg** port. It has problems at least with OpenGL. 
 Download from [XQuartz](https://www.xquartz.org) instead. It is not picture perfect either. 
-Try to manage to do without X11, for example Emacs + ess instead of RStudio GUI from server. 
+Try to get by without X11, for example Emacs + ess instead of RStudio GUI from server. 
 
 ## Convert version control system to Git
 To convert from CVS or Mercurial to Git the following ports are needed. See also the VC_Conversion repository.
