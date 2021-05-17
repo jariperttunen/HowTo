@@ -63,7 +63,7 @@ Try to get by without X11, for example Emacs + ess instead of RStudio GUI from s
 To convert from CVS or Mercurial to Git the following ports are needed. See also the VC_Conversion repository.
 + sudo port install cvs
 + sudo port install mercurial
-+ sudo port install cvs2svn
++ sudo port install cvs2svn (contains cvs2git program)
 + sudo port install git-remote-hg
 
 ## Apple M1 processor
