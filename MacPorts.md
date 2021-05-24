@@ -43,8 +43,8 @@ Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 + sudo port install doxygen
   + sudo port install graphviz
 + sudo port install texlive +full (LaTeX, full variant, i.e. full installation, may take awhile)
-+ sudo port install TeXShop4 (LaTeX gui and editor)
-+ sudo port install LyX (LateX WYSIWYM editor, "what you see is what you mean")
++ sudo port install TeXShop4 (LaTeX document gui editor)
++ sudo port install LyX (LateX document editor)
 + sudo port install ImageMagick (Create, convert, edit raster images, since 1987 still going strong, 
   command line programs, requires X11 for GUI, see [Official website](https://imagemagick.org) ).  
 + sudo port install enscript (Advanced source code pdf formatting for printing)
