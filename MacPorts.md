@@ -68,7 +68,7 @@ To convert from CVS or Mercurial to Git the following ports are needed. See also
 
 ## Apple M1 processor
 MacPorts ports for the new M1 processor seem to be under construction. You may try Rosetta 2.
-The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g) and then install MacPorts. MacPorts should install Intel versions of ports that are run through Rosetta 2.
+The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g) and then install MacPorts. Rosetta Terminal should compel MacPorts to install Intel versions of ports that are run through Rosetta 2.
 
 ## MacPorts migrations
 Major system change (e.g. macOS Catalina to macOS Big Sur, Intel to Apple M1 silicon) requires 
