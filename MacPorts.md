@@ -60,7 +60,7 @@ Download from [XQuartz](https://www.xquartz.org) instead. It is not picture perf
 Try to get by without X11, for example Emacs + ess instead of RStudio GUI from server. 
 
 ## Convert version control system to Git
-To convert from CVS or Mercurial to Git the following ports are needed. See also the VC_Conversion repository.
+To convert from CVS or Mercurial to Git the following ports are needed. See also the [VC_Conversion](https://github.com/jariperttunen/VC_Conversion) repository.
 + sudo port install cvs
 + sudo port install mercurial
 + sudo port install cvs2svn (contains cvs2git program)
