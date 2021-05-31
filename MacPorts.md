@@ -42,6 +42,7 @@ Major macOS updates may break ports (e.g. qt4 seems to be sensitive).
 + sudo port install cgal5 (new version, conflicts cgal4)
 + sudo port install doxygen
   + sudo port install graphviz
+  + sudo port install doxygen-launcher (GUI)
 + sudo port install texlive +full (LaTeX, full variant, i.e. full installation, may take awhile)
 + sudo port install TeXShop4 (LaTeX document gui editor)
 + sudo port install LyX (LaTeX document editor)
