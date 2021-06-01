@@ -13,7 +13,7 @@ The MacPorts manual is in [MacPorts Guide](https://guide.macports.org).
 + sudo port clean \<port\> (remove compilation work, recommended)
 + sudo port uninstall \[--follow-dependencies\] \<port\>
   + sudo port uninstall inactive (reclaim space by removing inactive ports) 
-  + sudo port uninstall installed
+  + sudo port uninstall installed (uninstall installed ports)
 + port info \<port\>
   + port info \<port\> --maintainers (for bug report: add maintainers if any)    
 + port variants \<port\> (ports may have diverse installation options)
