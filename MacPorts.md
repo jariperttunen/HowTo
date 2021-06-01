@@ -15,7 +15,7 @@ The MacPorts manual is in [MacPorts Guide](https://guide.macports.org).
   + sudo port uninstall inactive (reclaim space by removing inactive ports) 
   + sudo port uninstall installed
 + port info \<port\>
-  + port info --maintainers (for bug report: add maintainers if any)    
+  + port info \<port\> --maintainers (for bug report: add maintainers if any)    
 + port variants \<port\> (ports may have diverse installation options)
 + sudo port selfupdate (every two weeks or so)
   + sudo port upgrade outdated
