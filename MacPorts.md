@@ -81,7 +81,7 @@ If you have decided to do this the instructions are in [MacPorts Guide](https://
 
 # MacPorts behind firewall (proxies)
 The easy way is to do MacPorts installations outside firewall. Otherwise one can set 
-the three required environmental variables in Terminal:
+the three required environmental variables in Terminal before executing `port` command:
 
 + export RSYNC_PROXY=\<proxy_server\>:\<port\>
 + export HTTPS_PROXY=https://\<proxy_server\>:\<port\>
