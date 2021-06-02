@@ -72,8 +72,9 @@ MacPorts ports for the new M1 processor seem to be under construction. You may t
 The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g) and then install MacPorts. Rosetta Terminal should compel MacPorts to install Intel versions of ports that are run through Rosetta 2.
 
 ## MacPorts migrations
-Major system change (e.g. macOS Catalina to macOS Big Sur, Intel to Apple M1 silicon) requires 
-[migration](https://trac.macports.org/wiki/Migration) of the installed ports. 
+Principal system changes (e.g. macOS Catalina to macOS Big Sur, Intel to Apple M1 silicon) require 
+[migration](https://trac.macports.org/wiki/Migration) of the installed ports. Major macOS upgrades 
+tend to occure once a year in autumn.
 
 ## Uninstall MacPorts
 If you have decided to do this the instructions are in [MacPorts Guide](https://guide.macports.org/#installing.macports.uninstalling).
