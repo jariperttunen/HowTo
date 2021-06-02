@@ -74,7 +74,7 @@ The workaround is to first [create a Rosetta Terminal](https://dev.to/courier/ti
 ## MacPorts migrations
 Principal system changes (e.g. macOS Catalina to macOS Big Sur, Intel to Apple M1 silicon) require 
 [migration](https://trac.macports.org/wiki/Migration) of the installed ports. Major macOS upgrades 
-tend to occure once a year in autumn.
+necessitating this migration tend to occure once a year in autumn.
 
 ## Uninstall MacPorts
 If you have decided to do this the instructions are in [MacPorts Guide](https://guide.macports.org/#installing.macports.uninstalling).
