@@ -1,9 +1,8 @@
 # MacPorts
 MacPorts is an open source initiative for easy to use repository to install and maintain
-Linux/Unix command-line, X11 or Aqua based open-source software on Macs. 
+Linux/Unix command-line, X11 or Aqua based open-source software on Macs. The MacPorts manual is in [MacPorts Guide](https://guide.macports.org).
 
 # Some useful commands with MacPorts
-The MacPorts manual is in [MacPorts Guide](https://guide.macports.org).
 + port help \[\<command\>\]
 + port search \<keyword\>
   + port search --exact \<keyword\>
